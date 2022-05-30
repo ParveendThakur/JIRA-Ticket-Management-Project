@@ -107,7 +107,6 @@ removeBtn.addEventListener("click", function () {
 })
 
 
-
 function createTicket(ticketColor, task, ticketId) {
     let id;
     if (ticketId == undefined) {
@@ -115,7 +114,6 @@ function createTicket(ticketColor, task, ticketId) {
     } else {
         id = ticketId;
     }
-
 
     // <div class="ticket-cont">
     //         <div class="ticket-color"></div>
